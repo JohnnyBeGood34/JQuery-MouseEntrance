@@ -17,6 +17,7 @@ HOW TO USE
 $("#myDiv").bind('mouseenter',function(e){
   //Side can be left,right,bottom or top
   var side = $(this).detectMouseEntrance(e);
+  alert(side);
 });
 ```
 
